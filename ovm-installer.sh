@@ -378,7 +378,7 @@ echo -e "${GREEN}"
 cat << EOF
 
 ╔══════════════════════════════════════════════════════╗
-║               HVM PANEL V9 INSTALLED                ║
+║               OVM PANEL V9 INSTALLED                ║
 ╚══════════════════════════════════════════════════════╝
 
 STATUS            : ${PANEL_STATUS}
@@ -415,7 +415,7 @@ journalctl -u ${SERVICE_NAME} -f
 
 ONE LINE INSTALLER
 
-bash <(curl -fsSL https://raw.githubusercontent.com/hopingboyz/hvm-panel/main/installer.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/aalixan/ovm-installer/refs/heads/main/ovm-installer.sh)
 
 ════════════════════════════════════════════════════════
 
